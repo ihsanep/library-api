@@ -23,3 +23,9 @@ const librarySchema = new Schema({
     type: Boolean,
   },
 });
+
+
+// TODO: Buat model mongoose dengan menggunakan skema yang didefinisikan sebelumnya
+const Library = mongoose.model('Library',librarySchema, 'library'); //isi disini
+
+  module.exports = Library;
