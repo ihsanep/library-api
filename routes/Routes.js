@@ -62,7 +62,7 @@ app.put('/rubah/:id', (req, res) => {
         info: info,
         message: `Informasi buku dengan id ${id} sudah diubah`
       })
-        .catch((error) => console.log(error));s
+        .catch((error) => console.log(error));
     });
 });
 
